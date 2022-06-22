@@ -1,0 +1,1128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="StartExtraction.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="StartExtraction.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="StartExtraction.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="StartExtraction.Location" type="System.Drawing.Point, System.Drawing">
+    <value>251, 3</value>
+  </data>
+  <data name="StartExtraction.Size" type="System.Drawing.Size, System.Drawing">
+    <value>254, 29</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="StartExtraction.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="StartExtraction.Text" xml:space="preserve">
+    <value>Commencer l'extraction</value>
+  </data>
+  <data name="&gt;&gt;StartExtraction.Name" xml:space="preserve">
+    <value>StartExtraction</value>
+  </data>
+  <data name="&gt;&gt;StartExtraction.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;StartExtraction.Parent" xml:space="preserve">
+    <value>layoutExtractButtons</value>
+  </data>
+  <data name="&gt;&gt;StartExtraction.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ExtractVideos.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ExtractVideos.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="ExtractVideos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="ExtractVideos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 15</value>
+  </data>
+  <data name="ExtractVideos.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="ExtractVideos.Text" xml:space="preserve">
+    <value>Extraire les vidéos</value>
+  </data>
+  <data name="&gt;&gt;ExtractVideos.Name" xml:space="preserve">
+    <value>ExtractVideos</value>
+  </data>
+  <data name="&gt;&gt;ExtractVideos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ExtractVideos.Parent" xml:space="preserve">
+    <value>layoutExtractOptions</value>
+  </data>
+  <data name="&gt;&gt;ExtractVideos.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ExtractSubtitles.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ExtractSubtitles.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="ExtractSubtitles.Location" type="System.Drawing.Point, System.Drawing">
+    <value>257, 3</value>
+  </data>
+  <data name="ExtractSubtitles.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 15</value>
+  </data>
+  <data name="ExtractSubtitles.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="ExtractSubtitles.Text" xml:space="preserve">
+    <value>Extraire les sous-titres</value>
+  </data>
+  <data name="&gt;&gt;ExtractSubtitles.Name" xml:space="preserve">
+    <value>ExtractSubtitles</value>
+  </data>
+  <data name="&gt;&gt;ExtractSubtitles.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ExtractSubtitles.Parent" xml:space="preserve">
+    <value>layoutExtractOptions</value>
+  </data>
+  <data name="&gt;&gt;ExtractSubtitles.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="browseFolders.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>20, 11</value>
+  </metadata>
+  <data name="ChoseFolder.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="ChoseFolder.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ChoseFolder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>371, 3</value>
+  </data>
+  <data name="ChoseFolder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>134, 29</value>
+  </data>
+  <data name="ChoseFolder.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="ChoseFolder.Text" xml:space="preserve">
+    <value>Choisir un dossier</value>
+  </data>
+  <data name="&gt;&gt;ChoseFolder.Name" xml:space="preserve">
+    <value>ChoseFolder</value>
+  </data>
+  <data name="&gt;&gt;ChoseFolder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ChoseFolder.Parent" xml:space="preserve">
+    <value>layoutPath</value>
+  </data>
+  <data name="&gt;&gt;ChoseFolder.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="PathFolder.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="PathFolder.Location" type="System.Drawing.Point, System.Drawing">
+    <value>113, 8</value>
+  </data>
+  <data name="PathFolder.Size" type="System.Drawing.Size, System.Drawing">
+    <value>252, 20</value>
+  </data>
+  <data name="PathFolder.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="PathFolder.WordWrap" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;PathFolder.Name" xml:space="preserve">
+    <value>PathFolder</value>
+  </data>
+  <data name="&gt;&gt;PathFolder.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PathFolder.Parent" xml:space="preserve">
+    <value>layoutPath</value>
+  </data>
+  <data name="&gt;&gt;PathFolder.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ProgressBar.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="ProgressBar.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ProgressBar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="ProgressBar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>502, 19</value>
+  </data>
+  <data name="ProgressBar.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;ProgressBar.Name" xml:space="preserve">
+    <value>ProgressBar</value>
+  </data>
+  <data name="&gt;&gt;ProgressBar.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ProgressBar, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ProgressBar.Parent" xml:space="preserve">
+    <value>ExtractionPanel</value>
+  </data>
+  <data name="&gt;&gt;ProgressBar.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="label.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 11</value>
+  </data>
+  <data name="label.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 13</value>
+  </data>
+  <data name="label.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="label.Text" xml:space="preserve">
+    <value>Dossier d'extraction</value>
+  </data>
+  <data name="&gt;&gt;label.Name" xml:space="preserve">
+    <value>label</value>
+  </data>
+  <data name="&gt;&gt;label.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label.Parent" xml:space="preserve">
+    <value>layoutPath</value>
+  </data>
+  <data name="&gt;&gt;label.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="ExtractionProcessInfo.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="ExtractionProcessInfo.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="SubtitlesCount.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="SubtitlesCount.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="SubtitlesCount.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="SubtitlesCount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 25</value>
+  </data>
+  <data name="SubtitlesCount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>766, 13</value>
+  </data>
+  <data name="SubtitlesCount.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;SubtitlesCount.Name" xml:space="preserve">
+    <value>SubtitlesCount</value>
+  </data>
+  <data name="&gt;&gt;SubtitlesCount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SubtitlesCount.Parent" xml:space="preserve">
+    <value>ExtractionProcessInfo</value>
+  </data>
+  <data name="&gt;&gt;SubtitlesCount.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label3.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 47</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 13</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Fichier:</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>ExtractionProcessInfo</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label2.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 25</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 13</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Sous-titres:</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>ExtractionProcessInfo</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 4</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 13</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Vidéos:</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>ExtractionProcessInfo</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="VideosCount.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="VideosCount.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="VideosCount.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="VideosCount.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 4</value>
+  </data>
+  <data name="VideosCount.Size" type="System.Drawing.Size, System.Drawing">
+    <value>766, 13</value>
+  </data>
+  <data name="VideosCount.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;VideosCount.Name" xml:space="preserve">
+    <value>VideosCount</value>
+  </data>
+  <data name="&gt;&gt;VideosCount.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;VideosCount.Parent" xml:space="preserve">
+    <value>ExtractionProcessInfo</value>
+  </data>
+  <data name="&gt;&gt;VideosCount.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="ProcessingFileName.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="ProcessingFileName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>69, 45</value>
+  </data>
+  <data name="ProcessingFileName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>766, 13</value>
+  </data>
+  <data name="ProcessingFileName.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;ProcessingFileName.Name" xml:space="preserve">
+    <value>ProcessingFileName</value>
+  </data>
+  <data name="&gt;&gt;ProcessingFileName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ProcessingFileName.Parent" xml:space="preserve">
+    <value>ExtractionProcessInfo</value>
+  </data>
+  <data name="&gt;&gt;ProcessingFileName.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="ExtractionProcessInfo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ExtractionProcessInfo.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="ExtractionProcessInfo.RowCount" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="ExtractionProcessInfo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>508, 65</value>
+  </data>
+  <data name="ExtractionProcessInfo.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;ExtractionProcessInfo.Name" xml:space="preserve">
+    <value>ExtractionProcessInfo</value>
+  </data>
+  <data name="&gt;&gt;ExtractionProcessInfo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ExtractionProcessInfo.Parent" xml:space="preserve">
+    <value>ExtractionDetails</value>
+  </data>
+  <data name="&gt;&gt;ExtractionProcessInfo.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="ExtractionProcessInfo.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="SubtitlesCount" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="label3" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="label2" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="label1" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="VideosCount" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="ProcessingFileName" Row="2" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Absolute,66,Absolute,772" /&gt;&lt;Rows Styles="Percent,33.33333,Percent,33.33333,Percent,33.33333" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="ProcessInfos.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="ListToProcess.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="ListToProcess.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ListToProcess.Size" type="System.Drawing.Size, System.Drawing">
+    <value>501, 170</value>
+  </data>
+  <data name="ListToProcess.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;ListToProcess.Name" xml:space="preserve">
+    <value>ListToProcess</value>
+  </data>
+  <data name="&gt;&gt;ListToProcess.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TreeView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ListToProcess.Parent" xml:space="preserve">
+    <value>FilesToProcess</value>
+  </data>
+  <data name="&gt;&gt;ListToProcess.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="FilesToProcess.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="FilesToProcess.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="FilesToProcess.Size" type="System.Drawing.Size, System.Drawing">
+    <value>500, 166</value>
+  </data>
+  <data name="FilesToProcess.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="FilesToProcess.Text" xml:space="preserve">
+    <value>Fichiers à traiter</value>
+  </data>
+  <data name="&gt;&gt;FilesToProcess.Name" xml:space="preserve">
+    <value>FilesToProcess</value>
+  </data>
+  <data name="&gt;&gt;FilesToProcess.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;FilesToProcess.Parent" xml:space="preserve">
+    <value>ProcessInfos</value>
+  </data>
+  <data name="&gt;&gt;FilesToProcess.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="LogEvents.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="LogEvents.Location" type="System.Drawing.Point, System.Drawing">
+    <value>-1, 0</value>
+  </data>
+  <data name="LogEvents.Size" type="System.Drawing.Size, System.Drawing">
+    <value>503, 169</value>
+  </data>
+  <data name="LogEvents.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;LogEvents.Name" xml:space="preserve">
+    <value>LogEvents</value>
+  </data>
+  <data name="&gt;&gt;LogEvents.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LogEvents.Parent" xml:space="preserve">
+    <value>TabLogs</value>
+  </data>
+  <data name="&gt;&gt;LogEvents.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="TabLogs.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="TabLogs.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="TabLogs.Size" type="System.Drawing.Size, System.Drawing">
+    <value>500, 166</value>
+  </data>
+  <data name="TabLogs.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="TabLogs.Text" xml:space="preserve">
+    <value>Logs</value>
+  </data>
+  <data name="&gt;&gt;TabLogs.Name" xml:space="preserve">
+    <value>TabLogs</value>
+  </data>
+  <data name="&gt;&gt;TabLogs.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TabLogs.Parent" xml:space="preserve">
+    <value>ProcessInfos</value>
+  </data>
+  <data name="&gt;&gt;TabLogs.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ProcessInfos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 65</value>
+  </data>
+  <data name="ProcessInfos.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="ProcessInfos.Padding" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="ProcessInfos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>508, 192</value>
+  </data>
+  <data name="ProcessInfos.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;ProcessInfos.Name" xml:space="preserve">
+    <value>ProcessInfos</value>
+  </data>
+  <data name="&gt;&gt;ProcessInfos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ProcessInfos.Parent" xml:space="preserve">
+    <value>ExtractionDetails</value>
+  </data>
+  <data name="&gt;&gt;ProcessInfos.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="BackgroundWorker.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>150, 11</value>
+  </metadata>
+  <data name="ShowDetails.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Left, Right</value>
+  </data>
+  <data name="ShowDetails.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="ShowDetails.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="ShowDetails.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 29</value>
+  </data>
+  <data name="ShowDetails.Size" type="System.Drawing.Size, System.Drawing">
+    <value>502, 17</value>
+  </data>
+  <data name="ShowDetails.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="ShowDetails.Text" xml:space="preserve">
+    <value>Afficher le détail</value>
+  </data>
+  <data name="&gt;&gt;ShowDetails.Name" xml:space="preserve">
+    <value>ShowDetails</value>
+  </data>
+  <data name="&gt;&gt;ShowDetails.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ShowDetails.Parent" xml:space="preserve">
+    <value>ExtractionPanel</value>
+  </data>
+  <data name="&gt;&gt;ShowDetails.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="layoutExtract.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="layoutExtract.ColumnCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="layoutExtractButtons.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="layoutExtractButtons.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="showGalery.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="showGalery.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="showGalery.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="showGalery.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="showGalery.Size" type="System.Drawing.Size, System.Drawing">
+    <value>242, 29</value>
+  </data>
+  <data name="showGalery.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="showGalery.Text" xml:space="preserve">
+    <value>&lt;&lt;    Afficher ma galerie</value>
+  </data>
+  <data name="&gt;&gt;showGalery.Name" xml:space="preserve">
+    <value>showGalery</value>
+  </data>
+  <data name="&gt;&gt;showGalery.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;showGalery.Parent" xml:space="preserve">
+    <value>layoutExtractButtons</value>
+  </data>
+  <data name="&gt;&gt;showGalery.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="layoutExtractButtons.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 57</value>
+  </data>
+  <data name="layoutExtractButtons.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="layoutExtractButtons.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="layoutExtractButtons.Size" type="System.Drawing.Size, System.Drawing">
+    <value>508, 35</value>
+  </data>
+  <data name="layoutExtractButtons.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;layoutExtractButtons.Name" xml:space="preserve">
+    <value>layoutExtractButtons</value>
+  </data>
+  <data name="&gt;&gt;layoutExtractButtons.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;layoutExtractButtons.Parent" xml:space="preserve">
+    <value>layoutExtract</value>
+  </data>
+  <data name="&gt;&gt;layoutExtractButtons.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="layoutExtractButtons.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="StartExtraction" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="showGalery" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,48.87064,Percent,51.12936" /&gt;&lt;Rows Styles="Percent,50" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="ExtractionPanel.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="ExtractionPanel.ColumnCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="ExtractionDetails.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="ExtractionDetails.ColumnCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="ExtractionDetails.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 50</value>
+  </data>
+  <data name="ExtractionDetails.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="ExtractionDetails.RowCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="ExtractionDetails.Size" type="System.Drawing.Size, System.Drawing">
+    <value>508, 257</value>
+  </data>
+  <data name="ExtractionDetails.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;ExtractionDetails.Name" xml:space="preserve">
+    <value>ExtractionDetails</value>
+  </data>
+  <data name="&gt;&gt;ExtractionDetails.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ExtractionDetails.Parent" xml:space="preserve">
+    <value>ExtractionPanel</value>
+  </data>
+  <data name="&gt;&gt;ExtractionDetails.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ExtractionDetails.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="ExtractionProcessInfo" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="ProcessInfos" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100" /&gt;&lt;Rows Styles="Absolute,65,Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="ExtractionPanel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 92</value>
+  </data>
+  <data name="ExtractionPanel.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="ExtractionPanel.RowCount" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="ExtractionPanel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>508, 307</value>
+  </data>
+  <data name="ExtractionPanel.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;ExtractionPanel.Name" xml:space="preserve">
+    <value>ExtractionPanel</value>
+  </data>
+  <data name="&gt;&gt;ExtractionPanel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ExtractionPanel.Parent" xml:space="preserve">
+    <value>layoutExtract</value>
+  </data>
+  <data name="&gt;&gt;ExtractionPanel.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ExtractionPanel.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="ProgressBar" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="ExtractionDetails" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="ShowDetails" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100" /&gt;&lt;Rows Styles="Absolute,25,Absolute,25,Absolute,55" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="layoutExtractOptions.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="layoutExtractOptions.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="layoutExtractOptions.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 36</value>
+  </data>
+  <data name="layoutExtractOptions.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="layoutExtractOptions.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="layoutExtractOptions.Size" type="System.Drawing.Size, System.Drawing">
+    <value>508, 21</value>
+  </data>
+  <data name="layoutExtractOptions.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;layoutExtractOptions.Name" xml:space="preserve">
+    <value>layoutExtractOptions</value>
+  </data>
+  <data name="&gt;&gt;layoutExtractOptions.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;layoutExtractOptions.Parent" xml:space="preserve">
+    <value>layoutExtract</value>
+  </data>
+  <data name="&gt;&gt;layoutExtractOptions.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="layoutExtractOptions.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="ExtractVideos" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="ExtractSubtitles" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,50,Percent,50" /&gt;&lt;Rows Styles="Percent,50" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="layoutPath.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="layoutPath.ColumnCount" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="layoutPath.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="layoutPath.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="layoutPath.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="layoutPath.Size" type="System.Drawing.Size, System.Drawing">
+    <value>508, 36</value>
+  </data>
+  <data name="layoutPath.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;layoutPath.Name" xml:space="preserve">
+    <value>layoutPath</value>
+  </data>
+  <data name="&gt;&gt;layoutPath.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;layoutPath.Parent" xml:space="preserve">
+    <value>layoutExtract</value>
+  </data>
+  <data name="&gt;&gt;layoutPath.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="layoutPath.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="ChoseFolder" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="PathFolder" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="label" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Absolute,110,Percent,100,Absolute,140" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="layoutExtract.Location" type="System.Drawing.Point, System.Drawing">
+    <value>217, 0</value>
+  </data>
+  <data name="layoutExtract.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="layoutExtract.RowCount" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="layoutExtract.Size" type="System.Drawing.Size, System.Drawing">
+    <value>508, 399</value>
+  </data>
+  <data name="layoutExtract.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;layoutExtract.Name" xml:space="preserve">
+    <value>layoutExtract</value>
+  </data>
+  <data name="&gt;&gt;layoutExtract.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;layoutExtract.Parent" xml:space="preserve">
+    <value>layoutMain</value>
+  </data>
+  <data name="&gt;&gt;layoutExtract.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="layoutExtract.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="layoutExtractButtons" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="ExtractionPanel" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="layoutExtractOptions" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="layoutPath" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100" /&gt;&lt;Rows Styles="Absolute,36,Absolute,21,Absolute,35,Absolute,55" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="layoutMain.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="layoutMain.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="layoutGalery.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="layoutGalery.ColumnCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="supprItem.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="supprItem.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 372</value>
+  </data>
+  <data name="supprItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>211, 24</value>
+  </data>
+  <data name="supprItem.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="supprItem.Text" xml:space="preserve">
+    <value>Supprimer la sélection</value>
+  </data>
+  <data name="&gt;&gt;supprItem.Name" xml:space="preserve">
+    <value>supprItem</value>
+  </data>
+  <data name="&gt;&gt;supprItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;supprItem.Parent" xml:space="preserve">
+    <value>layoutGalery</value>
+  </data>
+  <data name="&gt;&gt;supprItem.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="galeryTree.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Bottom, Left, Right</value>
+  </data>
+  <data name="galeryTree.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="galeryTree.Size" type="System.Drawing.Size, System.Drawing">
+    <value>211, 363</value>
+  </data>
+  <data name="galeryTree.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;galeryTree.Name" xml:space="preserve">
+    <value>galeryTree</value>
+  </data>
+  <data name="&gt;&gt;galeryTree.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TreeView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;galeryTree.Parent" xml:space="preserve">
+    <value>layoutGalery</value>
+  </data>
+  <data name="&gt;&gt;galeryTree.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="layoutGalery.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="layoutGalery.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="layoutGalery.RowCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="layoutGalery.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 399</value>
+  </data>
+  <data name="layoutGalery.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;layoutGalery.Name" xml:space="preserve">
+    <value>layoutGalery</value>
+  </data>
+  <data name="&gt;&gt;layoutGalery.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;layoutGalery.Parent" xml:space="preserve">
+    <value>layoutMain</value>
+  </data>
+  <data name="&gt;&gt;layoutGalery.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="layoutGalery.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="supprItem" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="galeryTree" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,100" /&gt;&lt;Rows Styles="Percent,100,Absolute,30" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="layoutMain.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1, 0</value>
+  </data>
+  <data name="layoutMain.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>0, 0, 0, 0</value>
+  </data>
+  <data name="layoutMain.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="layoutMain.Size" type="System.Drawing.Size, System.Drawing">
+    <value>725, 399</value>
+  </data>
+  <data name="layoutMain.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;layoutMain.Name" xml:space="preserve">
+    <value>layoutMain</value>
+  </data>
+  <data name="&gt;&gt;layoutMain.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;layoutMain.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;layoutMain.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="layoutMain.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="layoutExtract" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="layoutGalery" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,30,Percent,70" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>43</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>727, 408</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Extract Galery</value>
+  </data>
+  <data name="&gt;&gt;browseFolders.Name" xml:space="preserve">
+    <value>browseFolders</value>
+  </data>
+  <data name="&gt;&gt;browseFolders.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FolderBrowserDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;BackgroundWorker.Name" xml:space="preserve">
+    <value>BackgroundWorker</value>
+  </data>
+  <data name="&gt;&gt;BackgroundWorker.Type" xml:space="preserve">
+    <value>System.ComponentModel.BackgroundWorker, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>Form1</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

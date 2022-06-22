@@ -1,0 +1,16 @@
+C:\Users\Georges\source\repos\ExtractGalery\ExtractGalery\bin\Debug\ExtractGalery.exe.config
+C:\Users\Georges\source\repos\ExtractGalery\ExtractGalery\bin\Debug\ExtractGalery.exe
+C:\Users\Georges\source\repos\ExtractGalery\ExtractGalery\bin\Debug\ExtractGalery.pdb
+C:\Users\Georges\source\repos\ExtractGalery\ExtractGalery\obj\Debug\ExtractGalery.csprojAssemblyReference.cache
+C:\Users\Georges\source\repos\ExtractGalery\ExtractGalery\obj\Debug\ExtractGalery.Properties.Resources.resources
+C:\Users\Georges\source\repos\ExtractGalery\ExtractGalery\obj\Debug\ExtractGalery.csproj.GenerateResource.cache
+C:\Users\Georges\source\repos\ExtractGalery\ExtractGalery\obj\Debug\ExtractGalery.csproj.CoreCompileInputs.cache
+C:\Users\Georges\source\repos\ExtractGalery\ExtractGalery\obj\Debug\ExtractGalery.exe
+C:\Users\Georges\source\repos\ExtractGalery\ExtractGalery\obj\Debug\ExtractGalery.pdb
+C:\Users\Georges\source\repos\ExtractGalery\ExtractGalery\obj\Debug\ExtractGalery.Form1.resources
+C:\Users\Georges\source\repos\ExtractGalery\ExtractGalery\bin\Debug\fr\ExtractGalery.resources.dll
+C:\Users\Georges\source\repos\ExtractGalery\ExtractGalery\obj\Debug\ExtractGalery.Form1.fr.resources
+C:\Users\Georges\source\repos\ExtractGalery\ExtractGalery\obj\Debug\fr\ExtractGalery.resources.dll
+C:\Users\Georges\source\repos\ExtractGalery\ExtractGalery\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Georges\source\repos\ExtractGalery\ExtractGalery\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Georges\source\repos\ExtractGalery\ExtractGalery\obj\Debug\ExtractGalery.csproj.CopyComplete
